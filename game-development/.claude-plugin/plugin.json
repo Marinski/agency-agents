@@ -1,0 +1,31 @@
+{
+  "name": "agency-game-development",
+  "displayName": "Agency — Game Development",
+  "description": "The Agency Game Development division: 21 specialist agents.",
+  "author": {
+    "name": "Agency Agents"
+  },
+  "agents": [
+    "./blender/blender-addon-engineer.md",
+    "./economy-designer.md",
+    "./game-audio-engineer.md",
+    "./game-designer.md",
+    "./godot/godot-gameplay-scripter.md",
+    "./godot/godot-multiplayer-engineer.md",
+    "./godot/godot-shader-developer.md",
+    "./level-designer.md",
+    "./narrative-designer.md",
+    "./roblox-studio/roblox-avatar-creator.md",
+    "./roblox-studio/roblox-experience-designer.md",
+    "./roblox-studio/roblox-systems-scripter.md",
+    "./technical-artist.md",
+    "./unity/unity-architect.md",
+    "./unity/unity-editor-tool-developer.md",
+    "./unity/unity-multiplayer-engineer.md",
+    "./unity/unity-shader-graph-artist.md",
+    "./unreal-engine/unreal-multiplayer-architect.md",
+    "./unreal-engine/unreal-systems-engineer.md",
+    "./unreal-engine/unreal-technical-artist.md",
+    "./unreal-engine/unreal-world-builder.md"
+  ]
+}

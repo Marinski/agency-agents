@@ -105,6 +105,36 @@ Browse the agents below and copy/adapt the ones you need!
 
 See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for full details.
 
+### Option 5: Install as Agent Plugins from the Marketplace
+
+The Agency ships a Claude-format **plugin marketplace** — one installable agent
+plugin per division, consumable by Claude Code, VS Code (Agent Plugins,
+Preview), and GitHub Copilot CLI. No clone, no scripts.
+
+**VS Code** — add the marketplace to `settings.json`:
+
+```json
+{
+  "chat.plugins.enabled": true,
+  "chat.plugins.marketplaces": ["msitarzewski/agency-agents"]
+}
+```
+
+Then search `@agentPlugins` in the Extensions view and install the divisions
+you need (e.g. **Agency — Engineering**).
+
+**Claude Code** — in any session:
+
+```
+/plugin marketplace add msitarzewski/agency-agents
+/plugin install agency-engineering@agency-agents
+/reload-plugins
+```
+
+Installed agents appear scoped by plugin, e.g. `agency-engineering:frontend-developer`,
+and update automatically (every commit is a new plugin version). See
+[integrations/plugin-marketplace/README.md](integrations/plugin-marketplace/README.md).
+
 ---
 
 ## 🎨 The Agency Roster

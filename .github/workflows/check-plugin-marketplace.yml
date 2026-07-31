@@ -1,0 +1,26 @@
+name: Check Plugin Marketplace Consistency
+
+# Runs on every PR (no path filter on purpose): a new division or agent must
+# trip this check even when nobody touched .claude-plugin/ or the build script.
+# The `version` field is intentionally omitted from every manifest so Claude
+# Code versions each plugin by git commit SHA, so the authoritative validate
+# runs WITHOUT --strict (which would fail on that deliberate warning).
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check-plugin-marketplace:
+    name: marketplace manifests match the roster
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate generated marketplace manifests
+        run: |
+          chmod +x scripts/check-plugin-marketplace.sh
+          ./scripts/check-plugin-marketplace.sh
+
+      - name: Validate against Claude Code plugin rules
+        run: npx -y @anthropic-ai/claude-code plugin validate .

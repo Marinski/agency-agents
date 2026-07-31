@@ -1,0 +1,94 @@
+{
+  "name": "agency-agents",
+  "description": "The Agency — 17 installable agent divisions for Claude Code, VS Code, and GitHub Copilot CLI",
+  "owner": {
+    "name": "Agency Agents"
+  },
+  "plugins": [
+    {
+      "name": "agency-academic",
+      "source": "./academic",
+      "description": "Academic division (6 specialist agents)"
+    },
+    {
+      "name": "agency-design",
+      "source": "./design",
+      "description": "Design division (10 specialist agents)"
+    },
+    {
+      "name": "agency-engineering",
+      "source": "./engineering",
+      "description": "Engineering division (58 specialist agents)"
+    },
+    {
+      "name": "agency-finance",
+      "source": "./finance",
+      "description": "Finance division (5 specialist agents)"
+    },
+    {
+      "name": "agency-game-development",
+      "source": "./game-development",
+      "description": "Game Development division (21 specialist agents)"
+    },
+    {
+      "name": "agency-gis",
+      "source": "./gis",
+      "description": "GIS division (13 specialist agents)"
+    },
+    {
+      "name": "agency-healthcare",
+      "source": "./healthcare",
+      "description": "Healthcare division (3 specialist agents)"
+    },
+    {
+      "name": "agency-marketing",
+      "source": "./marketing",
+      "description": "Marketing division (36 specialist agents)"
+    },
+    {
+      "name": "agency-paid-media",
+      "source": "./paid-media",
+      "description": "Paid Media division (7 specialist agents)"
+    },
+    {
+      "name": "agency-product",
+      "source": "./product",
+      "description": "Product division (5 specialist agents)"
+    },
+    {
+      "name": "agency-project-management",
+      "source": "./project-management",
+      "description": "Project Management division (7 specialist agents)"
+    },
+    {
+      "name": "agency-sales",
+      "source": "./sales",
+      "description": "Sales division (9 specialist agents)"
+    },
+    {
+      "name": "agency-security",
+      "source": "./security",
+      "description": "Security division (12 specialist agents)"
+    },
+    {
+      "name": "agency-spatial-computing",
+      "source": "./spatial-computing",
+      "description": "Spatial Computing division (6 specialist agents)"
+    },
+    {
+      "name": "agency-specialized",
+      "source": "./specialized",
+      "description": "Specialized division (57 specialist agents)"
+    },
+    {
+      "name": "agency-support",
+      "source": "./support",
+      "description": "Support division (6 specialist agents)"
+    },
+    {
+      "name": "agency-testing",
+      "source": "./testing",
+      "description": "Testing division (9 specialist agents)"
+    }
+  ]
+}

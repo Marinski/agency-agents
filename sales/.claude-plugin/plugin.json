@@ -1,0 +1,19 @@
+{
+  "name": "agency-sales",
+  "displayName": "Agency — Sales",
+  "description": "The Agency Sales division: 9 specialist agents.",
+  "author": {
+    "name": "Agency Agents"
+  },
+  "agents": [
+    "./sales-account-strategist.md",
+    "./sales-coach.md",
+    "./sales-deal-strategist.md",
+    "./sales-discovery-coach.md",
+    "./sales-engineer.md",
+    "./sales-offer-lead-gen-strategist.md",
+    "./sales-outbound-strategist.md",
+    "./sales-pipeline-analyst.md",
+    "./sales-proposal-strategist.md"
+  ]
+}

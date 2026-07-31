@@ -1,0 +1,17 @@
+{
+  "name": "agency-paid-media",
+  "displayName": "Agency — Paid Media",
+  "description": "The Agency Paid Media division: 7 specialist agents.",
+  "author": {
+    "name": "Agency Agents"
+  },
+  "agents": [
+    "./paid-media-auditor.md",
+    "./paid-media-creative-strategist.md",
+    "./paid-media-paid-social-strategist.md",
+    "./paid-media-ppc-strategist.md",
+    "./paid-media-programmatic-buyer.md",
+    "./paid-media-search-query-analyst.md",
+    "./paid-media-tracking-specialist.md"
+  ]
+}

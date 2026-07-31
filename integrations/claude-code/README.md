@@ -29,3 +29,17 @@ Use the Reality Checker agent to verify this feature is production-ready.
 
 Agents are organized into divisions. See the [main README](../../README.md) for
 the full Agency roster.
+
+## Install as Plugins (Marketplace)
+
+Instead of copying agents, you can install each division as an agent plugin from
+the Agency's [plugin marketplace](../plugin-marketplace/README.md):
+
+```
+/plugin marketplace add msitarzewski/agency-agents
+/plugin install agency-engineering@agency-agents
+/reload-plugins
+```
+
+Installed agents appear scoped by plugin (e.g. `agency-engineering:frontend-developer`)
+and auto-update as the roster changes.

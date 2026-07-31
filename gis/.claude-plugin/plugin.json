@@ -1,0 +1,23 @@
+{
+  "name": "agency-gis",
+  "displayName": "Agency — GIS",
+  "description": "The Agency GIS division: 13 specialist agents.",
+  "author": {
+    "name": "Agency Agents"
+  },
+  "agents": [
+    "./gis-3d-scene-developer.md",
+    "./gis-analyst.md",
+    "./gis-bim-specialist.md",
+    "./gis-cartography-designer.md",
+    "./gis-drone-reality-mapping.md",
+    "./gis-geoai-ml-engineer.md",
+    "./gis-geoprocessing-specialist.md",
+    "./gis-qa-engineer.md",
+    "./gis-solution-engineer.md",
+    "./gis-spatial-data-engineer.md",
+    "./gis-spatial-data-scientist.md",
+    "./gis-technical-consultant.md",
+    "./gis-web-gis-developer.md"
+  ]
+}

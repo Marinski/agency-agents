@@ -1,0 +1,16 @@
+{
+  "name": "agency-spatial-computing",
+  "displayName": "Agency — Spatial Computing",
+  "description": "The Agency Spatial Computing division: 6 specialist agents.",
+  "author": {
+    "name": "Agency Agents"
+  },
+  "agents": [
+    "./macos-spatial-metal-engineer.md",
+    "./terminal-integration-specialist.md",
+    "./visionos-spatial-engineer.md",
+    "./xr-cockpit-interaction-specialist.md",
+    "./xr-immersive-developer.md",
+    "./xr-interface-architect.md"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "agency-finance",
+  "displayName": "Agency — Finance",
+  "description": "The Agency Finance division: 5 specialist agents.",
+  "author": {
+    "name": "Agency Agents"
+  },
+  "agents": [
+    "./finance-bookkeeper-controller.md",
+    "./finance-financial-analyst.md",
+    "./finance-fpa-analyst.md",
+    "./finance-investment-researcher.md",
+    "./finance-tax-strategist.md"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "agency-design",
+  "displayName": "Agency — Design",
+  "description": "The Agency Design division: 10 specialist agents.",
+  "author": {
+    "name": "Agency Agents"
+  },
+  "agents": [
+    "./design-brand-guardian.md",
+    "./design-image-prompt-engineer.md",
+    "./design-inclusive-visuals-specialist.md",
+    "./design-persona-walkthrough.md",
+    "./design-ui-designer.md",
+    "./design-ui-finish-gate-reviewer.md",
+    "./design-ux-architect.md",
+    "./design-ux-researcher.md",
+    "./design-visual-storyteller.md",
+    "./design-whimsy-injector.md"
+  ]
+}

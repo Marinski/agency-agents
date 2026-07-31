@@ -20,6 +20,7 @@ supported agentic coding tools.
 - **[Mistral Vibe](vibe/README.md)** — `.toml` agents + prompt files generated in `vibe/`
 - **Osaurus** -- `SKILL.md` skills generated in `osaurus/`
 - **[Hermes](hermes/README.md)** -- lazy-router plugin generated in `hermes/`
+- **[Plugin marketplace](plugin-marketplace/README.md)** -- Claude-format `.claude-plugin` registry for Claude Code, VS Code, and GitHub Copilot CLI (not a `convert.sh` target)
 
 ## Quick Install
 
@@ -262,3 +263,29 @@ directly, run the converter before installing from a fresh clone:
 ```
 
 See [codex/README.md](codex/README.md) for details.
+
+---
+
+## Plugin Marketplace (Claude Code / VS Code)
+
+The repo also distributes its divisions as a Claude-format **plugin
+marketplace** (`.claude-plugin/marketplace.json` at the repo root). Each
+division is one installable agent plugin — Claude Code, VS Code (Agent
+Plugins), and GitHub Copilot CLI read it directly, so no `convert.sh` or
+`install.sh` step is involved.
+
+```text
+# Claude Code
+/plugin marketplace add msitarzewski/agency-agents
+/plugin install agency-engineering@agency-agents
+```
+
+```json
+// VS Code settings.json
+{
+  "chat.plugins.enabled": true,
+  "chat.plugins.marketplaces": ["msitarzewski/agency-agents"]
+}
+```
+
+See [plugin-marketplace/README.md](plugin-marketplace/README.md) for details.

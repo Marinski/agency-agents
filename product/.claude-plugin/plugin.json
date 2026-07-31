@@ -1,0 +1,15 @@
+{
+  "name": "agency-product",
+  "displayName": "Agency — Product",
+  "description": "The Agency Product division: 5 specialist agents.",
+  "author": {
+    "name": "Agency Agents"
+  },
+  "agents": [
+    "./product-behavioral-nudge-engine.md",
+    "./product-feedback-synthesizer.md",
+    "./product-manager.md",
+    "./product-sprint-prioritizer.md",
+    "./product-trend-researcher.md"
+  ]
+}

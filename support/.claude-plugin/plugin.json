@@ -1,0 +1,16 @@
+{
+  "name": "agency-support",
+  "displayName": "Agency — Support",
+  "description": "The Agency Support division: 6 specialist agents.",
+  "author": {
+    "name": "Agency Agents"
+  },
+  "agents": [
+    "./support-analytics-reporter.md",
+    "./support-executive-summary-generator.md",
+    "./support-finance-tracker.md",
+    "./support-infrastructure-maintainer.md",
+    "./support-legal-compliance-checker.md",
+    "./support-support-responder.md"
+  ]
+}

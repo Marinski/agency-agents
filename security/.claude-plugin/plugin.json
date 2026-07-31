@@ -1,0 +1,22 @@
+{
+  "name": "agency-security",
+  "displayName": "Agency — Security",
+  "description": "The Agency Security division: 12 specialist agents.",
+  "author": {
+    "name": "Agency Agents"
+  },
+  "agents": [
+    "./security-ai-generated-code-auditor.md",
+    "./security-appsec-engineer.md",
+    "./security-architect.md",
+    "./security-blockchain-security-auditor.md",
+    "./security-cloud-security-architect.md",
+    "./security-compliance-auditor.md",
+    "./security-incident-responder.md",
+    "./security-penetration-tester.md",
+    "./security-secrets-credential-engineer.md",
+    "./security-senior-secops.md",
+    "./security-threat-detection-engineer.md",
+    "./security-threat-intelligence-analyst.md"
+  ]
+}
