@@ -1,0 +1,99 @@
+{
+  "name": "agency-agents",
+  "description": "The Agency — 18 installable agent divisions for Claude Code, VS Code, Claude Desktop, and GitHub Copilot CLI",
+  "owner": {
+    "name": "Agency Agents"
+  },
+  "plugins": [
+    {
+      "name": "agency-academic",
+      "source": "./plugins/academic",
+      "description": "Academic division (6 specialist skills)"
+    },
+    {
+      "name": "agency-design",
+      "source": "./plugins/design",
+      "description": "Design division (10 specialist skills)"
+    },
+    {
+      "name": "agency-engineering",
+      "source": "./plugins/engineering",
+      "description": "Engineering division (64 specialist skills)"
+    },
+    {
+      "name": "agency-finance",
+      "source": "./plugins/finance",
+      "description": "Finance division (5 specialist skills)"
+    },
+    {
+      "name": "agency-game-development",
+      "source": "./plugins/game-development",
+      "description": "Game Development division (21 specialist skills)"
+    },
+    {
+      "name": "agency-gis",
+      "source": "./plugins/gis",
+      "description": "GIS division (13 specialist skills)"
+    },
+    {
+      "name": "agency-healthcare",
+      "source": "./plugins/healthcare",
+      "description": "Healthcare division (3 specialist skills)"
+    },
+    {
+      "name": "agency-marketing",
+      "source": "./plugins/marketing",
+      "description": "Marketing division (36 specialist skills)"
+    },
+    {
+      "name": "agency-paid-media",
+      "source": "./plugins/paid-media",
+      "description": "Paid Media division (7 specialist skills)"
+    },
+    {
+      "name": "agency-product",
+      "source": "./plugins/product",
+      "description": "Product division (5 specialist skills)"
+    },
+    {
+      "name": "agency-project-management",
+      "source": "./plugins/project-management",
+      "description": "Project Management division (7 specialist skills)"
+    },
+    {
+      "name": "agency-research",
+      "source": "./plugins/research",
+      "description": "Research division (1 specialist skill)"
+    },
+    {
+      "name": "agency-sales",
+      "source": "./plugins/sales",
+      "description": "Sales division (9 specialist skills)"
+    },
+    {
+      "name": "agency-security",
+      "source": "./plugins/security",
+      "description": "Security division (12 specialist skills)"
+    },
+    {
+      "name": "agency-spatial-computing",
+      "source": "./plugins/spatial-computing",
+      "description": "Spatial Computing division (6 specialist skills)"
+    },
+    {
+      "name": "agency-specialized",
+      "source": "./plugins/specialized",
+      "description": "Specialized division (59 specialist skills)"
+    },
+    {
+      "name": "agency-support",
+      "source": "./plugins/support",
+      "description": "Support division (6 specialist skills)"
+    },
+    {
+      "name": "agency-testing",
+      "source": "./plugins/testing",
+      "description": "Testing division (9 specialist skills)"
+    }
+  ]
+}
